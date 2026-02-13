@@ -2,8 +2,6 @@
 """
 Evidence-based decoder for the Trident puzzle artifacts.
 
-This script only prints values that can be validated from the provided files.
-No guessed phone numbers, coordinates, or trial-and-error fields.
 """
 
 from __future__ import annotations
@@ -14,8 +12,8 @@ import struct
 import wave
 from pathlib import Path
 
-AUDIO_FILE = Path("/home/victor/Documents/Desktop/Cryptography/download.mp3_converted.wav")
-CLUE_PDF = Path("/home/victor/Documents/Desktop/Cryptography/TS Clues-7.pdf")
+AUDIO_FILE = Path("./download.mp3_converted.wav")
+CLUE_PDF = Path("./TS Clues-7.pdf")
 
 MORSE_TABLE = {
     ".-": "A",
